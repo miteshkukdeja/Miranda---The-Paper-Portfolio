@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: domain;
+  src: url("./DomaineDispCondMedium.ttf");
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  background-color: #222;
+  overflow-x: hidden;
+}
+
+#page1 {
+  height: 120vh;
+  width: 100vw;
+  background-color: #c7c0b6;
+  position: relative;
+  overflow: hidden;
+}
+
+#nav {
+  height: 110px;
+  width: 100%;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #222;
+}
+
+#nav img {
+  height: 30px;
+  width: 30%;
+}
+
+#nav h5 {
+  font-size: 20px;
+  font-weight: 100;
+  width: 30%;
+}
+
+#nav i {
+  width: 30%;
+  text-align: right;
+}
+
+#element {
+  height: 430px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 60px;
+}
+
+#element1 {
+  width: 30%;
+  height: 100%;
+}
+#element2 {
+  width: 30%;
+  height: 100%;
+  border-right: 2px solid #a5a5a5;
+  border-left: 2px solid #a5a5a5;
+  padding: 20px 60px;
+  text-align: center;
+}
+#element3 {
+  width: 30%;
+  height: 100%;
+}
+
+#element1 #image {
+  height: 60%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all ease 0.4s;
+}
+
+#element3 #image {
+  height: 60%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#image:hover img {
+  scale: 1.2;
+}
+
+#element1 h4 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: canopee;
+}
+
+#element1 h4 span {
+  background-color: #ba3d12;
+  color: #c6beb5;
+  font-size: 18px;
+  padding: 4px;
+  font-weight: 100;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+#element1 p {
+  font-size: 23px;
+  font-family: domain;
+  font-weight: 100;
+  color: #2d2c2a;
+}
+
+#element3 h4 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: canopee;
+}
+
+#element3 h4 span {
+  background-color: #ba3d12;
+  color: #c6beb5;
+  font-size: 18px;
+  padding: 4px;
+  font-weight: 100;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+#element3 p {
+  font-size: 23px;
+  font-family: domain;
+  font-weight: 100;
+  color: #2d2c2a;
+}
+
+#element2 h2 {
+  font-family: canopee;
+  font-size: 75px;
+  font-weight: 100;
+}
+
+#element2 h3 {
+  font-family: domain;
+  font-size: 50px;
+  font-weight: 100;
+  color: #2d2c2a;
+  margin: 20px 0;
+}
+#element2 h6 {
+  font-family: domain;
+  font-size: 20px;
+  font-weight: 100;
+  color: #2d2c2a;
+}
+#element2 h6 span {
+  font-weight: bold;
+  font-family: canopee;
+}
+
+#page1 h1 {
+  font-size: 700px;
+  font-family: canopee;
+  font-weight: 100;
+  background-color: #1c1c19;
+  color: #c6beb5;
+  line-height: 600px;
+  width: 96%;
+  margin-left: 2%;
+  letter-spacing: -25px;
+}
+
+#page2 {
+  background-color: #c6beb5;
+  height: 150vw;
+  width: 100%;
+}
